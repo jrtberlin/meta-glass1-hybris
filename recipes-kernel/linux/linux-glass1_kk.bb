@@ -12,8 +12,6 @@ SRC_URI = "git://android.googlesource.com/kernel/omap;branch=glass-omap-xrr02;pr
     file://defconfig \
     file://img_info \
     file://0001-Create-copy-of-devfreq_trace.h.patch \
-    file://0002-msm-mdss-mdp-Don-t-use-tracing-features.patch \
-    file://0003-psmouse-base-disable-references-to-lifebook_detect-w.patch \
     file://0004-static-inline-in-ARM-ftrace.h.patch \
     file://0005-traps-only-use-unwind_backtrace-if-available.patch \
     file://0006-Use-Bluesleep-instead-of-Nitrous-for-BT-power-manage.patch \
