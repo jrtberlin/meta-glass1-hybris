@@ -1,1 +1,1 @@
-SRC_URI_append_anthias = " file://0001-Remove-wayland-egl-which-is-distributed-by-libhybris.patch "
+SRC_URI_append_glass1 = " file://0001-Remove-wayland-egl-which-is-distributed-by-libhybris.patch "

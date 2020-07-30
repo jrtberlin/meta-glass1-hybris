@@ -1,1 +1,1 @@
-FILESEXTRAPATHS_prepend_anthias := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS_prepend_glass1 := "${THISDIR}/${PN}:"

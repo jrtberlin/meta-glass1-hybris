@@ -1,15 +1,15 @@
 inherit gettext
 
-SUMMARY = "Downloads the Asus Zenwatch 1 /system and /usr/include/android folders and installs them for libhybris"
+SUMMARY = "Downloads the Google Glass /system and /usr/include/android folders and installs them for libhybris"
 LICENSE = "CLOSED"
 SRC_URI = "https://dl.dropboxusercontent.com/s/8gzrfqridtqikio/system-anthias.tar.gz"
 SRC_URI[md5sum] = "1ce516c6d6c50117787440e6ec6f5435"
 SRC_URI[sha256sum] = "014f931c611ba167c2d0980027ec8f3b17169dff9d04cd0c6731bc5798bbb6ea"
-PV = "lollipop"
+PV = "kitkat"
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 INHIBIT_PACKAGE_STRIP = "1"
-COMPATIBLE_MACHINE = "anthias"
+COMPATIBLE_MACHINE = "glass1"
 INSANE_SKIP_${PN} = "already-stripped"
 S = "${WORKDIR}"
 B = "${S}"
@@ -31,7 +31,6 @@ do_install() {
     ln -s system/vendor vendor
 }
 
-# FIXME: QA Issue: Architecture did not match (40 to 164) on /work/dory-oe-linux-gnueabi/android/lollipop-r0/packages-split/android-system/system/vendor/firmware/adsp.b00 [arch]
 do_package_qa() {
 }
 

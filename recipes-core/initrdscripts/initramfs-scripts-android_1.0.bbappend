@@ -1,2 +1,2 @@
-FILESEXTRAPATHS_prepend_anthias := "${THISDIR}/${PN}:"
-COMPATIBLE_MACHINE_anthias = "anthias"
+FILESEXTRAPATHS_prepend_glass1 := "${THISDIR}/${PN}:"
+COMPATIBLE_MACHINE_glass1 = "glass1"

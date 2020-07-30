@@ -1,0 +1,12 @@
+kernel=%%KERNEL%%
+ramdisk=%%RAMDISK%%
+page_size=0x800
+kernel_size=5090464
+ramdisk_size=533552
+base_addr=0x00000000
+kernel_offset=0x80008000
+ramdisk_offset=0x81000000
+tags_offset=0x80000100
+cmd_line='console=ttyO2,115200n8 vmalloc=500M androidboot.console=ttyO2 androidboot.carrier=wifi-only product_type=w cpuidle_sysfs_switch mem=1024M'
+board="glass1"
+format=gzip

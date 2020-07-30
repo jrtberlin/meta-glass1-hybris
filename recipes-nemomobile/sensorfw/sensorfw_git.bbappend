@@ -1,1 +1,1 @@
-DEPENDS_append_anthias = " libhybris "
+DEPENDS_append_glass1 = " libhybris "
