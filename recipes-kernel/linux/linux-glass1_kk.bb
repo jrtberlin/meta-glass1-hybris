@@ -13,10 +13,6 @@ SRC_URI = "git://android.googlesource.com/kernel/omap;branch=glass-omap-xrr02;pr
     file://img_info \
     file://0001-Create-copy-of-devfreq_trace.h.patch \
     file://0004-static-inline-in-ARM-ftrace.h.patch \
-    file://0005-traps-only-use-unwind_backtrace-if-available.patch \
-    file://0006-Use-Bluesleep-instead-of-Nitrous-for-BT-power-manage.patch \
-    file://0007-Backport-mainline-4.1-Bluetooth-subsystem.patch \
-    file://0008-it7260_ts_i2c-Remove-the-differenciation-of-Ambient-.patch \
     file://0010-ARM-uaccess-remove-put_user-code-duplication.patch "
 SRCREV = "41619529af82d93ee457b4e67532ca1c54b234e2"
 LINUX_VERSION ?= "3.4"
