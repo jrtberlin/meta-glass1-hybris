@@ -2,9 +2,9 @@ inherit gettext
 
 SUMMARY = "Downloads the Google Glass /system and /usr/include/android folders and installs them for libhybris"
 LICENSE = "CLOSED"
-SRC_URI = "https://dl.dropboxusercontent.com/s/8gzrfqridtqikio/system-anthias.tar.gz"
-SRC_URI[md5sum] = "1ce516c6d6c50117787440e6ec6f5435"
-SRC_URI[sha256sum] = "014f931c611ba167c2d0980027ec8f3b17169dff9d04cd0c6731bc5798bbb6ea"
+SRC_URI = "https://dl.jrtberlin.de/system-glass1.tar.gz"
+SRC_URI[md5sum] = "7cee5432aa4f7a4b80e83faf3e901aa7"
+SRC_URI[sha256sum] = "c1c6990671d777040a121c224affab87283581eab84d01c13f047a62b670d1ad"
 PV = "kitkat"
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
