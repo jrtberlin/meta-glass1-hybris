@@ -19,8 +19,8 @@ PV = "${LINUX_VERSION}+kitkat"
 S = "${WORKDIR}/git"
 B = "${S}"
 
-GCCVERSION ?= "6.0.%"
-SDKGCCVERSION ?= "6.0.%"
+GCCVERSION ?= "4.3.%"
+SDKGCCVERSION ?= "4.3%"
 
 do_install_append() {
     rm -rf ${D}/usr/src/usr/
