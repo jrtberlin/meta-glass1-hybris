@@ -1,0 +1,20 @@
+diff --git a/include/linux/usb/omap_usb.h b/include/linux/usb/omap_usb.h
+index 01f40790d0d9..5b0522588180 100644
+--- a/include/linux/usb/omap_usb.h
++++ b/include/linux/usb/omap_usb.h
+@@ -20,9 +20,6 @@
+  *
+  */
+ 
+-#ifndef __DRIVERS_OMAP_USB2_H
+-#define __DRIVERS_OMAP_USB2_H
+-
+ #include <linux/io.h>
+ #include <linux/usb/otg.h>
+ 
+@@ -142,5 +139,3 @@ static inline int twl6030_usb_event(enum twl6030_usb_events event)
+ 	return -EINVAL;
+ }
+ #endif
+-
+-#endif /* __DRIVERS_OMAP_USB_H */
