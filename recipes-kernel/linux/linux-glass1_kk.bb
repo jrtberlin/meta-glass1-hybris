@@ -9,7 +9,8 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 COMPATIBLE_MACHINE = "glass1"
 
 SRC_URI = "git://android.googlesource.com/kernel/omap;branch=glass-omap-xrx13b;protocol=https \
-    file://0001-fix-struct-in-omap4ion-header.patch \
+    file://0001-scripts-dtc-Remove-redundant-YYLOC-global-declaratio.patch \
+    file://0002-fix-struct-in-omap4ion-header.patch \
     file://0010-ARM-uaccess-remove-put_user-code-duplication.patch \
     file://0815-define-removal.patch \
     file://defconfig \
